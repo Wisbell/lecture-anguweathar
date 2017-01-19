@@ -1,6 +1,3 @@
-# Components folder
-lib
-
 # Logs
 logs
 *.log
@@ -32,6 +29,8 @@ build/Release
 # Dependency directories
 node_modules
 jspm_packages
+#lib - remove this if you want to gitignore the lib folder
+#it isnt ignored so we can deploy it
 
 # Optional npm cache directory
 .npm
